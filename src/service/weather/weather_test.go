@@ -2,7 +2,7 @@ package weather_test
 
 import (
 	"fmt"
-	"go_weather/service/weather"
+	"go_weather/src/service/weather"
 	"log"
 	"time"
 

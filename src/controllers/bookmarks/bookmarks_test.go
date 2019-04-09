@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"database/sql"
 	"encoding/json"
-	"go_weather/controllers/bookmarks"
+	"go_weather/src/controllers/bookmarks"
 	"log"
 	"net/http"
 	"net/http/httptest"

@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"go_weather/db"
+	"go_weather/src/db"
 	"net/http"
 )
 

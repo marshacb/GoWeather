@@ -4,12 +4,12 @@ import (
 	"net/http"
 	"time"
 
-	"go_weather/controllers/bookmarks"
-	"go_weather/controllers/weathers"
+	"go_weather/src/controllers/bookmarks"
+	"go_weather/src/controllers/weathers"
 
-	"go_weather/db"
-	"go_weather/service/bookmark"
-	"go_weather/service/weather"
+	"go_weather/src/db"
+	"go_weather/src/service/bookmark"
+	"go_weather/src/service/weather"
 
 	"github.com/go-chi/chi"
 	"github.com/go-chi/chi/middleware"

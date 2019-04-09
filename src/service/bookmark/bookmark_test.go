@@ -2,7 +2,7 @@ package bookmark_test
 
 import (
 	"errors"
-	"go_weather/service/bookmark"
+	"go_weather/src/service/bookmark"
 	"log"
 
 	sqlmock "github.com/DATA-DOG/go-sqlmock"
