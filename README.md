@@ -2,7 +2,9 @@ Getting Started
 ========================
 Set up GOPATH 
 
-Follow instructions to download Microsoft SQL Server Docker Image of choice from https://hub.docker.com/_/microsoft-mssql-server
+Follow instructions to download and run Microsoft SQL Server Docker Image of choice from https://hub.docker.com/_/microsoft-mssql-server
+
+Run scripts found in 'schema_001.sql' file from within docker sql container
 
 Inside of root go_weather directory run the 'go build' command.
 Once the binary is built use the ./go_weather command to execute the binary.
