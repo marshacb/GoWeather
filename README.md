@@ -13,13 +13,13 @@ Application can then be found on http://localhost:8080/
 
 Routes
 ==============
-GET "/get-city-weather/{city}" - returns the weather data for the provided city/location
-GET "/total-queries" - returns the total number of queries
-GET "/high-temperatures" - returns the high temps for each month
-GET "/low-temperatures" - returns the low temps for each month
-GET "/average-temperature/{month}" - returns the average temp for the provided month
-GET "/weather-days" - returns all days queried grouped by 
-POST "/bookmark-location" - request body sample {"cityName": "Miami"}
+GET "/get-city-weather/{city}" - returns the weather data for the provided city/location   
+GET "/total-queries" - returns the total number of queries   
+GET "/high-temperatures" - returns the high temps for each month   
+GET "/low-temperatures" - returns the low temps for each month   
+GET "/average-temperature/{month}" - returns the average temp for the provided month   
+GET "/weather-days" - returns all days queried grouped by weather description   
+POST "/bookmark-location" - request body sample {"cityName": "Miami"}   
 
 
 Testing
