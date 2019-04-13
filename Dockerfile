@@ -4,4 +4,4 @@ WORKDIR /usr/app
 
 COPY . .
 
-CMD ["go", "run", "src/main.go"]
+CMD ["go", "run", "main.go"]
