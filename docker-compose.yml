@@ -1,8 +1,10 @@
-version: '3'
+version: "3"
 services:
   mssql-server: 
-    image: 'marshacb/mssqlimage'
+    image: "marshacb/mssqlimage"
+    ports: 
+      - "1433:1433"
   go-weather:
-    build: .
+    image: "marshacb/go-weather"
     ports:
       - "8080:8080"

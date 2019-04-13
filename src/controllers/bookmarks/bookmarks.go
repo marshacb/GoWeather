@@ -4,8 +4,9 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"go_weather/src/db"
 	"net/http"
+
+	"../../db"
 )
 
 type locationToBookmark struct {

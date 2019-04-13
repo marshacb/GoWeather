@@ -1,7 +1,7 @@
 package main
 
 import (
-	"go_weather/src/server"
+	"./src/server"
 
 	_ "github.com/denisenkom/go-mssqldb"
 )

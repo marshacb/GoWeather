@@ -1,7 +1,14 @@
-FROM golang
+FROM golang:latest
 
-COPY . /go/src/go_weather
+WORKDIR /src
 
-WORKDIR /go/src/go_weather
+COPY . .
 
-CMD ["go", "run", "main.go"]
+RUN go get github.com/denisenkom/go-mssqldb
+RUN go get github.com/go-chi/chi
+RUN go get github.com/go-chi/chi/middleware
+RUN go get github.com/rs/cors
+
+RUN go build main.go
+
+CMD ["./main"]

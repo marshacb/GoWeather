@@ -4,12 +4,13 @@ import (
 	"database/sql"
 	"encoding/json"
 	"fmt"
-	"go_weather/src/db"
 	"log"
 	"net/http"
 	"strings"
 
-	"go_weather/src/service/weather"
+	"../../db"
+
+	"../../service/weather"
 
 	"github.com/go-chi/chi"
 )

@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 
-	"go_weather/src/router"
+	"../router"
 )
 
 // Start the http server

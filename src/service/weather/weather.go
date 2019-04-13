@@ -128,12 +128,6 @@ func GetQueryCount(db *sql.DB) (int, error) {
 		SELECT Count(*) from WeatherQueries
 	`
 
-	// stmt, err := db.Prepare(query)
-	// if err != nil {
-	// 	return -1, err
-	// }
-	// defer stmt.Close()
-
 	row, err := db.Query(query)
 	if err != nil {
 		fmt.Println("err", err)
