@@ -1,0 +1,8 @@
+version: '3'
+services:
+  mssql-server: 
+    image: 'marshacb/mssqlimage'
+  go-weather:
+    build: .
+    ports:
+      - "8080:8080"

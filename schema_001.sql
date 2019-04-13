@@ -2,7 +2,7 @@ CREATE DATABASE WeatherTestDB;
 
 USE WeatherTestDB; 
 
-CREATE TABLE BookmarkedPlaces (
+CREATE TABLE BookmarkedLocations (
 	ID INT NOT NULL IDENTITY PRIMARY KEY,
     CityName TEXT,
 	BookMarked BIT

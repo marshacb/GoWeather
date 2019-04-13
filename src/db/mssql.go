@@ -20,7 +20,7 @@ type MSSQLDB struct{}
 // OpenConnection returns connecton to sql DB
 func (db *MSSQLDB) OpenConnection() *sql.DB {
 	var nTables int
-	connectString := "sqlserver://sa:YourStrong(!)Passw0rd@localhost:1433?database=WeatherTestDB&connection+timeout=30"
+	connectString := "sqlserver://sa:YourStrong(!)Passw0rd@marshacb/mssql-server?database=WeatherTestDB&connection+timeout=30"
 
 	println("opening connection")
 	mssqlDB, err := sql.Open("mssql", connectString)
