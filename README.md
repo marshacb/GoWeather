@@ -1,7 +1,7 @@
 Getting Started
 ========================
 Clone Project - git clone https://github.com/marshacb/GoWeather.git   
-Run "docker-compose up" from root directory of project to create container 
+Run "docker-compose up" from root directory of project to create container  
 Access api from localhost:8080   
 
 Routes
