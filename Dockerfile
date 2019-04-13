@@ -1,7 +1,7 @@
 FROM golang
 
-WORKDIR /usr/app
+COPY . /go/src/go_weather
 
-COPY . .
+WORKDIR /go/src/go_weather
 
 CMD ["go", "run", "main.go"]
